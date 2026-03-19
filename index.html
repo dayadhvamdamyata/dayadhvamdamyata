@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayadhvam Damyata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 720px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #a0a0c0;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            backdrop-filter: blur(10px);
+            text-align: left;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            color: #ffd200;
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card .sanskrit {
+            font-size: 1rem;
+            color: #c0c0d0;
+            margin-bottom: 0.75rem;
+            font-style: italic;
+        }
+
+        .card p {
+            line-height: 1.7;
+            color: #b0b0c8;
+        }
+
+        footer {
+            margin-top: 3rem;
+            color: #606080;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: #ffd200;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dayadhvam Damyata</h1>
+        <p class="subtitle">From T.S. Eliot's <em>The Waste Land</em> &mdash; the three commands of the thunder</p>
+
+        <div class="card">
+            <h2>Datta</h2>
+            <p class="sanskrit">दत्त &mdash; "Give"</p>
+            <p>The thunder speaks first of generosity. What have we given? Not the prudent calculation of benefit, but the moment of surrender that an age of prudence can never retract.</p>
+        </div>
+
+        <div class="card">
+            <h2>Dayadhvam</h2>
+            <p class="sanskrit">दयध्वम् &mdash; "Sympathize"</p>
+            <p>Each in their own prison of self, we hear the key turn once. Compassion is the bridge &mdash; to confirm a prison is to acknowledge the other who stands outside it.</p>
+        </div>
+
+        <div class="card">
+            <h2>Damyata</h2>
+            <p class="sanskrit">दम्यत &mdash; "Control"</p>
+            <p>The boat responds gaily to the hand expert with sail and oar. Self-mastery is not suppression but the discipline that sets the spirit free.</p>
+        </div>
+
+        <footer>
+            <p>Shantih &nbsp; shantih &nbsp; shantih</p>
+        </footer>
+    </div>
+</body>
+</html>
